@@ -251,6 +251,14 @@
         "priorityClassName": {
             "type": "string"
         },
+        "registrar": {
+            "type": "object",
+            "properties": {
+                "healthPort": {
+                    "type": "integer"
+                }
+            }
+        },
         "selinuxNodeLabel": {
             "type": "string"
         },
