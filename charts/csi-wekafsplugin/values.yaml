@@ -140,3 +140,6 @@ pluginConfig:
     snapshotVolumesWithoutQuotaEnforcement: false
   mutuallyExclusiveMountOptions:
     - "readcache,writecache,coherent,forcedirect"
+
+registrar:
+  healthPort: 9809
